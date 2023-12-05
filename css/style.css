@@ -1,0 +1,96 @@
+body{
+	background: #bbb;
+}
+.section{
+	background: #ddd;
+	width: 25%;
+	margin: 50px auto;
+	border-radius: 8px;
+	border: 3px solid #fff;
+	box-shadow: 0px 103px 91px -55px #9b9b9b;
+	position: relative;
+}
+.heading{
+	text-align: center;
+	background: #0AB8E0;
+	padding: 15px 0;
+	width: 50%;
+	position: absolute;
+	top: -7%;
+    left: 25%;
+}
+.heading h2{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: arial;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.photo{
+	text-align: center;
+	padding-top: 40px;
+}
+.photo img{
+	width: 100px;
+}
+.main-form{
+	padding: 10px 30px;
+}
+.form-group{
+	position: relative;
+}
+.icon{
+	position: absolute;
+  top: 25px;
+  left: 2px;
+  font-size: 15px;
+  color: #888686;
+  border-right: 1px solid #bfbdbd;
+  padding: 0 5px;
+  text-align: center;
+}
+.form-group .form-control{
+	background: #fff;
+ 	padding: 14px 40px;
+  margin: 10px 0;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.text{
+	font-size: 10px;
+	color: #777474;
+	position: relative;
+}
+.right{
+	text-align: right;
+  position: absolute;
+  top: -4px;
+  right: 0px;
+}
+.my-button{
+	text-align: center;
+	padding: 15px 0;
+}
+.button{
+	background: #0AB8E0;
+  width: 100%;
+  padding: 8px 0;
+  border: 2px solid #0AB8E0;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: arial;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.button:hover{
+	background: none;
+	border: 2px solid #0AB8E0;
+	color: #0AB8E0;
+
+}
